@@ -1,0 +1,2 @@
+cdf_rom.v,verilog,xil_defaultlib,../../../../mc_stock_sim.gen/sources_1/ip/cdf_rom/sim/cdf_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

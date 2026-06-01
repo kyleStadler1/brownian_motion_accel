@@ -1,0 +1,22 @@
+# Vivado generated/build folders
+mc_stock_sim/mc_stock_sim.sim/
+mc_stock_sim/mc_stock_sim.runs/
+mc_stock_sim/mc_stock_sim.cache/
+mc_stock_sim/mc_stock_sim.hw/
+mc_stock_sim/mc_stock_sim.tmp/
+mc_stock_sim/mc_stock_sim.gen/
+
+# Large simulation outputs
+*.wdb
+*.csv
+
+# Vivado logs and temporaries
+*.log
+*.jou
+*.pb
+*.veo
+*.vho
+*.vds
+*.wpc
+*.wdf
+*.str

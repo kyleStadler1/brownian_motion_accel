@@ -1,0 +1,2 @@
+fp32_add.v,verilog,xil_defaultlib,../../../../mc_stock_sim.gen/sources_1/ip/fp32_add/sim/fp32_add.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

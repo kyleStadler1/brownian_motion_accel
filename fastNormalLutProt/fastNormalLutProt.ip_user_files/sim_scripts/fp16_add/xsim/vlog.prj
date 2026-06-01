@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../fastNormalLutProt.gen/sources_1/ip/fp16_add/sim/fp16_add.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

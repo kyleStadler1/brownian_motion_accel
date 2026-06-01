@@ -1,0 +1,25 @@
+Loaded 5900000 rows from CSV
+No duplicate uid:day entries found.
+
+====================================================
+WARNING: Missing 1 UIDs!
+[0]
+====================================================
+
+
+====================================================
+CHECKING FOR MISSING DAYS PER PATH (IGNORING DAY 0)
+====================================================
+All UIDs have complete day data (except day 0, which is ignored).
+
+====================================================
+FINAL DATA QUALITY REPORT
+====================================================
+Total CSV rows              : 5900000
+Unique UIDs found           : 100000
+Expected UIDs               : 100000
+Duplicate uid/day rows      : 0
+Missing UIDs                : 1
+UIDs with missing days      : 0
+====================================================
+

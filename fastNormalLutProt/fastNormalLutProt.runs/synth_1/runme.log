@@ -1,0 +1,291 @@
+
+*** Running vivado
+    with args -log normalRandGenTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source normalRandGenTop.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source normalRandGenTop.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kcs-m/Documents/ece385/new_ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top normalRandGenTop -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6348
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-10929] literal value 'h2B4F truncated to fit in 13 bits [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:52]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1819.566 ; gain = 407.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'normalRandGenTop' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.runs/synth_1/.Xil/Vivado-55732-kcsZenbook/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.runs/synth_1/.Xil/Vivado-55732-kcsZenbook/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dualPortLFSR' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:23]
+	Parameter WIDTH bound to: 13 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'lfsr' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:65]
+	Parameter WIDTH bound to: 13 - type: integer 
+	Parameter SEED bound to: 13'b1101010101010 
+	Parameter TAP0 bound to: 12 - type: integer 
+	Parameter TAP1 bound to: 11 - type: integer 
+	Parameter TAP2 bound to: 10 - type: integer 
+	Parameter TAP3 bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'lfsr' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:65]
+INFO: [Synth 8-6157] synthesizing module 'lfsr__parameterized0' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:65]
+	Parameter WIDTH bound to: 13 - type: integer 
+	Parameter SEED bound to: 13'b0101101001111 
+	Parameter TAP0 bound to: 12 - type: integer 
+	Parameter TAP1 bound to: 11 - type: integer 
+	Parameter TAP2 bound to: 9 - type: integer 
+	Parameter TAP3 bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'lfsr__parameterized0' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:65]
+INFO: [Synth 8-6155] done synthesizing module 'dualPortLFSR' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/lfsr.sv:23]
+WARNING: [Synth 8-689] width (16) of port connection 'u0' does not match port width (13) of module 'dualPortLFSR' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:68]
+WARNING: [Synth 8-689] width (16) of port connection 'u1' does not match port width (13) of module 'dualPortLFSR' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:69]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.runs/synth_1/.Xil/Vivado-55732-kcsZenbook/realtime/blk_mem_gen_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.runs/synth_1/.Xil/Vivado-55732-kcsZenbook/realtime/blk_mem_gen_0_stub.v:5]
+WARNING: [Synth 8-689] width (16) of port connection 'addra' does not match port width (13) of module 'blk_mem_gen_0' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:95]
+WARNING: [Synth 8-689] width (16) of port connection 'addrb' does not match port width (13) of module 'blk_mem_gen_0' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:98]
+INFO: [Synth 8-6157] synthesizing module 'stager' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/stager.sv:23]
+	Parameter INPUT_WIDTH bound to: 32 - type: integer 
+	Parameter CLOCK_MULT bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'stager' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/stager.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'synchronizer' [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/synchronizer.sv:23]
+	Parameter WIDTH bound to: 96 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchronizer' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/synchronizer.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'normalRandGenTop' (0#1) [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.551 ; gain = 501.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.551 ; gain = 501.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1913.551 ; gain = 501.621
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1913.551 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'normlut'
+Finished Parsing XDC File [c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'normlut'
+Parsing XDC File [c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clks'
+Finished Parsing XDC File [c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clks'
+Parsing XDC File [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK_100MHZ'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'BTN[0]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'BTN[1]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'BTN[2]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'BTN[3]'. [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc:51]
+Finished Parsing XDC File [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.srcs/constrs_1/new/constr.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/normalRandGenTop_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1997.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1997.781 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'normlut' at clock pin 'clka' is different from the actual clock period '3.333', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for normlut. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for clks. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 2     
++---Registers : 
+	               96 Bit    Registers := 3     
+	               13 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     1|
+|2     |clk_wiz     |     1|
+|3     |LUT3        |     1|
+|4     |LUT4        |     2|
+|5     |FDRE        |   307|
+|6     |FDSE        |    15|
+|7     |IBUF        |     1|
+|8     |OBUF        |    97|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1998.766 ; gain = 501.621
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1998.766 ; gain = 586.836
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1998.766 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1998.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: fba70d63
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1998.766 ; gain = 963.723
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kcs-m/Documents/ieee/fastNormalLutProt/fastNormalLutProt.runs/synth_1/normalRandGenTop.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file normalRandGenTop_utilization_synth.rpt -pb normalRandGenTop_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 12 02:32:36 2025...

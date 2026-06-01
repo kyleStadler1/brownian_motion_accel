@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fastNormalLut_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fastNormalLut_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,020.001 ns"></ZoomEndTime>
+      <Cursor1Time time="359.941 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/fastNormalLut_tb/CLK_100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK_100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/BTN" type="array">
+      <obj_property name="ElementShortName">BTN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BTN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/VALID" type="logic">
+      <obj_property name="ElementShortName">VALID</obj_property>
+      <obj_property name="ObjectShortName">VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/r0" type="array">
+      <obj_property name="ElementShortName">r0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/r1" type="array">
+      <obj_property name="ElementShortName">r1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/r2" type="array">
+      <obj_property name="ElementShortName">r2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/r3" type="array">
+      <obj_property name="ElementShortName">r3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/FP_WIDTH" type="array">
+      <obj_property name="ElementShortName">FP_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FP_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/LFSR_WIDTH" type="array">
+      <obj_property name="ElementShortName">LFSR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LFSR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/CLOCK_MULT" type="array">
+      <obj_property name="ElementShortName">CLOCK_MULT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_MULT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/uut/dplfsr/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/uut/dplfsr/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/uut/dplfsr/u0" type="array">
+      <obj_property name="ElementShortName">u0[13:0]</obj_property>
+      <obj_property name="ObjectShortName">u0[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/uut/dplfsr/u1" type="array">
+      <obj_property name="ElementShortName">u1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">u1[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fastNormalLut_tb/uut/dplfsr/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

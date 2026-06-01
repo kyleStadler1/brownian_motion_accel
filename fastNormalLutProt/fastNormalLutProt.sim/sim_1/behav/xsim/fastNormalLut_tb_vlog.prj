@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../fastNormalLutProt.gen/sources_1/ip/clk_wiz_0" \
+"../../../../fastNormalLutProt.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../fastNormalLutProt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+
+sv xil_defaultlib  --include "../../../../fastNormalLutProt.gen/sources_1/ip/clk_wiz_0" \
+"../../../../fastNormalLutProt.srcs/sources_1/new/lfsr.sv" \
+"../../../../fastNormalLutProt.srcs/sources_1/new/normalRandGenTop.sv" \
+"../../../../fastNormalLutProt.srcs/sources_1/new/stager.sv" \
+"../../../../fastNormalLutProt.srcs/sources_1/new/synchronizer.sv" \
+"../../../../fastNormalLutProt.srcs/sim_1/new/fastNormalLut_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

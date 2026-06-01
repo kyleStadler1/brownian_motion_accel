@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="computation_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="computation_top_tb" />
+            <top_module name="data_types_pkg" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="416,208.896 ns"></ZoomStartTime>
+      <ZoomEndTime time="417,572.221 ns"></ZoomEndTime>
+      <Cursor1Time time="417,345.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="446"></NameColumnWidth>
+      <ValueColumnWidth column_width="188"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="124" />
+   <wvobject fp_name="/computation_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/fetch_valid" type="logic">
+      <obj_property name="ElementShortName">fetch_valid</obj_property>
+      <obj_property name="ObjectShortName">fetch_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/starting_price" type="array">
+      <obj_property name="ElementShortName">starting_price[31:0]</obj_property>
+      <obj_property name="ObjectShortName">starting_price[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/k0" type="array">
+      <obj_property name="ElementShortName">k0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/k1" type="array">
+      <obj_property name="ElementShortName">k1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/stream_out_packed" type="array">
+      <obj_property name="ElementShortName">stream_out_packed[335:0]</obj_property>
+      <obj_property name="ObjectShortName">stream_out_packed[335:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/path_out_packed" type="array">
+      <obj_property name="ElementShortName">path_out_packed[471:0]</obj_property>
+      <obj_property name="ObjectShortName">path_out_packed[471:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/all_done" type="logic">
+      <obj_property name="ElementShortName">all_done</obj_property>
+      <obj_property name="ObjectShortName">all_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/stream_out" type="array">
+      <obj_property name="ElementShortName">stream_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">stream_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/path_out" type="array">
+      <obj_property name="ElementShortName">path_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">path_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/csv_fp16" type="array">
+      <obj_property name="ElementShortName">csv_fp16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csv_fp16[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/csv_fp32" type="array">
+      <obj_property name="ElementShortName">csv_fp32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csv_fp32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/total_samples" type="array">
+      <obj_property name="ElementShortName">total_samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_samples[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/clock_cycles" type="array">
+      <obj_property name="ElementShortName">clock_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/sim_start_time" type="array">
+      <obj_property name="ElementShortName">sim_start_time[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_start_time[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/sim_end_time" type="array">
+      <obj_property name="ElementShortName">sim_end_time[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_end_time[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/start_counting" type="logic">
+      <obj_property name="ElementShortName">start_counting</obj_property>
+      <obj_property name="ObjectShortName">start_counting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/NUM_BLOCKS" type="array">
+      <obj_property name="ElementShortName">NUM_BLOCKS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_BLOCKS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/TARGET_PATHS" type="array">
+      <obj_property name="ElementShortName">TARGET_PATHS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TARGET_PATHS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/STARTING_PRICE" type="other">
+      <obj_property name="ElementShortName">STARTING_PRICE</obj_property>
+      <obj_property name="ObjectShortName">STARTING_PRICE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/fetch_valid" type="logic">
+      <obj_property name="ElementShortName">fetch_valid</obj_property>
+      <obj_property name="ObjectShortName">fetch_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/starting_price" type="array">
+      <obj_property name="ElementShortName">starting_price[31:0]</obj_property>
+      <obj_property name="ObjectShortName">starting_price[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/k0" type="array">
+      <obj_property name="ElementShortName">k0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/k1" type="array">
+      <obj_property name="ElementShortName">k1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/stream_out_packed" type="array">
+      <obj_property name="ElementShortName">stream_out_packed[335:0]</obj_property>
+      <obj_property name="ObjectShortName">stream_out_packed[335:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/path_out_packed" type="array">
+      <obj_property name="ElementShortName">path_out_packed[471:0]</obj_property>
+      <obj_property name="ObjectShortName">path_out_packed[471:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/all_done" type="logic">
+      <obj_property name="ElementShortName">all_done</obj_property>
+      <obj_property name="ObjectShortName">all_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/clk_default" type="logic">
+      <obj_property name="ElementShortName">clk_default</obj_property>
+      <obj_property name="ObjectShortName">clk_default</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/clk_fast" type="logic">
+      <obj_property name="ElementShortName">clk_fast</obj_property>
+      <obj_property name="ObjectShortName">clk_fast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/z_valid" type="array">
+      <obj_property name="ElementShortName">z_valid[0:3]</obj_property>
+      <obj_property name="ObjectShortName">z_valid[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/za" type="array">
+      <obj_property name="ElementShortName">za[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">za[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/zb" type="array">
+      <obj_property name="ElementShortName">zb[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">zb[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/stream_out_arr" type="array">
+      <obj_property name="ElementShortName">stream_out_arr[0:7]</obj_property>
+      <obj_property name="ObjectShortName">stream_out_arr[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/path_out_arr" type="array">
+      <obj_property name="ElementShortName">path_out_arr[0:7]</obj_property>
+      <obj_property name="ObjectShortName">path_out_arr[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/block_done" type="array">
+      <obj_property name="ElementShortName">block_done[0:7]</obj_property>
+      <obj_property name="ObjectShortName">block_done[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].zt_for_block " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].zt_for_block [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].zt_for_block [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].z_valid_for_block " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].z_valid_for_block </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].z_valid_for_block </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/NUM_BLOCKS" type="array">
+      <obj_property name="ElementShortName">NUM_BLOCKS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_BLOCKS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/NUM_Z_GEN" type="array">
+      <obj_property name="ElementShortName">NUM_Z_GEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_Z_GEN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/TOTAL_UIDS" type="array">
+      <obj_property name="ElementShortName">TOTAL_UIDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOTAL_UIDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/Q" type="array">
+      <obj_property name="ElementShortName">Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[0].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[0].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[1].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[1].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[1].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[2].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[2].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[2].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[3].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[3].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[3].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[4].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[4].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[4].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[5].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[5].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[5].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[6].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[6].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[6].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].Z_GEN_IDX " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].Z_GEN_IDX [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].Z_GEN_IDX [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].USE_ZB " type="logic">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].USE_ZB </obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].USE_ZB </obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].UID_DEPTH " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].UID_DEPTH [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].UID_DEPTH [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[7].UID_BASE " type="array">
+      <obj_property name="ElementShortName">\gen_comp_blocks[7].UID_BASE [16:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_comp_blocks[7].UID_BASE [16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /fetch_valid" type="logic">
+      <obj_property name="ElementShortName">fetch_valid</obj_property>
+      <obj_property name="ObjectShortName">fetch_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /starting_price" type="array">
+      <obj_property name="ElementShortName">starting_price[31:0]</obj_property>
+      <obj_property name="ObjectShortName">starting_price[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /k0" type="array">
+      <obj_property name="ElementShortName">k0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /k1" type="array">
+      <obj_property name="ElementShortName">k1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /zt" type="array">
+      <obj_property name="ElementShortName">zt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /stream_out_packed" type="array">
+      <obj_property name="ElementShortName">stream_out_packed[41:0]</obj_property>
+      <obj_property name="ObjectShortName">stream_out_packed[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /path_out_packed" type="array">
+      <obj_property name="ElementShortName">path_out_packed[58:0]</obj_property>
+      <obj_property name="ObjectShortName">path_out_packed[58:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /path_in" type="array">
+      <obj_property name="ElementShortName">path_in</obj_property>
+      <obj_property name="ObjectShortName">path_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /path_out" type="array">
+      <obj_property name="ElementShortName">path_out</obj_property>
+      <obj_property name="ObjectShortName">path_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /feedback_en" type="logic">
+      <obj_property name="ElementShortName">feedback_en</obj_property>
+      <obj_property name="ObjectShortName">feedback_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /feedback_en_r" type="logic">
+      <obj_property name="ElementShortName">feedback_en_r</obj_property>
+      <obj_property name="ObjectShortName">feedback_en_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /uid_counter" type="array">
+      <obj_property name="ElementShortName">uid_counter[16:0]</obj_property>
+      <obj_property name="ObjectShortName">uid_counter[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /last_uid_reached" type="logic">
+      <obj_property name="ElementShortName">last_uid_reached</obj_property>
+      <obj_property name="ObjectShortName">last_uid_reached</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /can_start_path" type="logic">
+      <obj_property name="ElementShortName">can_start_path</obj_property>
+      <obj_property name="ObjectShortName">can_start_path</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /uid_en" type="logic">
+      <obj_property name="ElementShortName">uid_en</obj_property>
+      <obj_property name="ObjectShortName">uid_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /fp16_price" type="array">
+      <obj_property name="ElementShortName">fp16_price[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fp16_price[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /fp16_price_valid" type="logic">
+      <obj_property name="ElementShortName">fp16_price_valid</obj_property>
+      <obj_property name="ObjectShortName">fp16_price_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /day_pipe" type="array">
+      <obj_property name="ElementShortName">day_pipe[2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">day_pipe[2:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /uid_pipe" type="array">
+      <obj_property name="ElementShortName">uid_pipe[2:0][16:0]</obj_property>
+      <obj_property name="ObjectShortName">uid_pipe[2:0][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /valid_pipe" type="array">
+      <obj_property name="ElementShortName">valid_pipe[2:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_pipe[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /path_pipe" type="array">
+      <obj_property name="ElementShortName">path_pipe[2:0]</obj_property>
+      <obj_property name="ObjectShortName">path_pipe[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /stream_out" type="array">
+      <obj_property name="ElementShortName">stream_out</obj_property>
+      <obj_property name="ObjectShortName">stream_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /done_raw" type="logic">
+      <obj_property name="ElementShortName">done_raw</obj_property>
+      <obj_property name="ObjectShortName">done_raw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /done_pipe" type="array">
+      <obj_property name="ElementShortName">done_pipe[2:0]</obj_property>
+      <obj_property name="ObjectShortName">done_pipe[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /UID_SEED" type="array">
+      <obj_property name="ElementShortName">UID_SEED[16:0]</obj_property>
+      <obj_property name="ObjectShortName">UID_SEED[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /UID_DEPTH" type="array">
+      <obj_property name="ElementShortName">UID_DEPTH[16:0]</obj_property>
+      <obj_property name="ObjectShortName">UID_DEPTH[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /MAX_DAY" type="array">
+      <obj_property name="ElementShortName">MAX_DAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_DAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/computation_top_tb/dut/\gen_comp_blocks[0].comp_block_inst /FP_CONVERT_LATENCY" type="array">
+      <obj_property name="ElementShortName">FP_CONVERT_LATENCY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FP_CONVERT_LATENCY[31:0]</obj_property>
+   </wvobject>
+</wave_config>
